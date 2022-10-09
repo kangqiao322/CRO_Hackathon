@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8306310037397611041}
-  - component: {fileID: 8306310037397611040}
   - component: {fileID: 8306310037397611043}
   - component: {fileID: 8306310037397611042}
   - component: {fileID: 8306310037397611070}
   - component: {fileID: -6195574808488351290}
+  - component: {fileID: 6252608462996091776}
   m_Layer: 0
   m_Name: BubblePowerUp (1)
   m_TagString: Untagged
@@ -29,29 +29,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8306310037397611045}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.56, y: 19.85, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.14597706}
+  m_LocalPosition: {x: -15.5281, y: 19.8815, z: 0}
+  m_LocalScale: {x: 0.21142001, y: 0.21142001, z: 0.15431236}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &8306310037397611040
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8306310037397611045}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.014176702, y: 0}
-  serializedVersion: 2
-  m_Radius: 2.8139708
 --- !u!114 &8306310037397611043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,7 +48,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c7e22f84af1db64d99dc402988b8df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 0}
 --- !u!212 &8306310037397611042
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -106,7 +89,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 968344047, guid: ea69993c6421f0e4d83e2e78f1fd3b95, type: 3}
+  m_Sprite: {fileID: -1732346900, guid: f5071b115693ae9418e8b2c12448c759, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -194,7 +177,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.281
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -234,3 +217,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!58 &6252608462996091776
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8306310037397611045}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.7949998
